@@ -48,16 +48,16 @@ class object {
 
 function keydown(event){
 	let key=event.key;
-	if (key=="ArrowLeft"){
+	if (["J", "ArrowLeft"].includes(key)){
 		player.move(player.x-1,player.y,2);
 	}
-	if (key=="ArrowRight"){
+	if (["L", "ArrowRight"].includes(key)){
 		player.move(player.x+1,player.y,0);
 	}
-	if (key=="ArrowDown"){
+	if (["K", "ArrowDown"].includes(key)){
 		player.move(player.x,player.y-1,1);
 	}
-	if (key=="ArrowUp"){
+	if (["I", "ArrowUp"].includes(key)){
 		player.move(player.x,player.y+1,3);
 	}
 }

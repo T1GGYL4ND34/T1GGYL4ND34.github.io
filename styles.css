@@ -4,3 +4,17 @@ img {
 body {
 	overflow: hidden;
 }
+#dialogue {
+	position: absolute;
+	left: 25%;
+	bottom: 0px;
+	width: 50%;
+	height: 25%;
+	border: 10px black solid;
+	display: none;
+	font-family: monospace;
+	font-size: 30px;
+	overflow: auto;
+	background-color: white;
+	z-index: 1;
+}

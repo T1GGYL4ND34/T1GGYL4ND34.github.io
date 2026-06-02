@@ -3,26 +3,13 @@
   <head>
     <title>tiggyland</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preload" as="image" href="player0.png">
+    <link rel="preload" as="image" href="player1.png">
+    <link rel="preload" as="image" href="player2.png">
+    <link rel="preload" as="image" href="player3.png">
   </head>
   <body onkeydown="keydown(event)">
-    this is like not even close to being finished<br>arrow keys to move i wonder what the goal is<br>yes this is a task based diamond this movement thing will not be related to the tasks its only the interface
-    <img id="player" src="player.png">
-    <img id="interact" src="interact.png">
-    <img id="wall1" src="wall.png">
-    <img id="wall2" src="wall.png">
-    <img id="wall3" src="wall.png">
-    <img id="wall4" src="wall.png">
-    <img id="wall5" src="wall.png">
-    <img id="wall6" src="wall.png">
-    <img id="wall7" src="wall.png">
-    <img id="wall8" src="wall.png">
-    <img id="wall9" src="wall.png">
-    <img id="wall10" src="wall.png">
-    <img id="wall11" src="wall.png">
-    <img id="wall12" src="wall.png">
-    <img id="wall13" src="wall.png">
-    <img id="wall14" src="wall.png">
-    <img id="wall15" src="wall.png">
+    <div id="dialogue" onclick="displaystr=''; dialoguecur='';"></div>
     <script src="game.js"></script>
   </body>
 </html>
